@@ -1,0 +1,350 @@
+:root {
+    --main-title-color: #ffffff;
+    --main-btn-color: #ffffff;
+    --second-title-color: #303030;
+    --second-btn-color: #303030;
+    --accent-color: #FF6C00;
+    --typical-lh: 1.36;
+    --main-font: 'Open Sans', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: gray;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header-link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;   
+    color: #FFFFFF;
+}
+
+.header-link:hover {
+    color: #FF6C00;
+}
+
+.header-link:focus {
+    color: #FF6C00;
+}
+
+.header-tel {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+.header-btn {
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.hero {
+    background-color: #7987b6;;
+}
+
+.hero-link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+}
+
+.hero-link:hover,
+.hero-link:focus {
+    color: #FF6C00;
+}
+
+.hero-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.hero-bottom-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.about-top-text {
+    font-weight: 600;
+    line-height: 1.36;
+    text-transform: uppercase;   
+    color: #303030;
+    font-size: 11px;
+}
+
+.about-title {
+    font-family: 'Raleway';
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.05em;   
+    color: #303030;
+    font-size: 42px;
+}
+
+.about-bottom-text {
+    font-weight: 400;
+    line-height: 1.67;
+    letter-spacing: 0.02em;    
+    color: #555555;
+    font-size: 18px;
+}
+
+.about-text {
+    font-weight: 400;
+    line-height: 1.86;
+    letter-spacing: 0.02em;  
+    color: #555555;
+    font-size: 14px;
+}
+
+.about-btn {
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;   
+    color: #303030;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.prices {
+    background-color: #303030;
+}
+
+.prices-top-text {
+    font-weight: 600;
+    line-height: 1.36;
+    text-transform: uppercase; 
+    color: rgba(157, 164, 189, 0.6);
+    font-size: 11px;
+}
+
+.prices-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.05em;   
+    color: #FFFFFF;
+    font-size: 42px;
+}
+
+
+.prices-item-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+
+.prices-btn {
+    font-family: inherit;
+    font-weight: 600;
+    line-height: 1.33;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;  
+    color: #FFFFFF;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.benefits-item span {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.benefits-item-text {
+    font-weight: 600;
+    line-height: var(--typical-lh);
+    text-align: center;
+    color: #303030;
+    font-size: 11px;
+}
+
+.benefits-top-text {
+    font-weight: 600;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #303030;
+    font-size: 11px;
+}
+
+.benefits-title {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+.benefits-bottom-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.barbers-top-text {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: #303030;
+}
+
+.barbers-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+    color: var(--second-title-color);
+}
+
+
+.barbers-item-title {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--second-title-color);
+}
+
+.barbers-item-text {
+    font-size: 14px;
+    line-height: 1.35;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FF6C00;
+}
+
+.gallery-top-text {
+    color: #303030;
+}
+
+.online {
+    background-color: #303030;
+}
+
+.online-title {
+    color: var(--main-title-color);
+}
+
+.contacts {
+    background-color: #303030;
+}
+
+.contacts-title {
+    color: var(--main-title-color);
+}
+
+.contacts-address {
+    font-style: normal;
+}
+
+.contacts-address-link {
+    font-weight: 700;
+    line-height: 1.67;
+    letter-spacing: 0.02em;  
+    color: #9DA4BD;
+    font-size: 18px;
+}
+
+.contacts-link {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+}
+.contacts-subtitle {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: var(--typical-lh);
+}
+.contacts-schedule {
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #9DA4BD;
+    line-height: 1.67;
+
+}
+
+.footer-copy {
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: #9DA4BD;
+    line-height: 1.36;
+}
+
+.footer-link {
+    font-weight: 600;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: #303030;
+    font-size: 11px;
+}
+
+.footer-link:hover,
+.footer-link:focus {
+    color: #FF6C00;
+}
