@@ -51,6 +51,29 @@ img {
     color: #FFFFFF;
 }
 
+.header_logo {
+    margin-right: 131px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-connect {
+    margin-left: auto;
+}
+
+.header-list {
+    display: flex;
+    gap: 30px;
+}
+
 .header-link:hover {
     color: #FF6C00;
 }
@@ -68,17 +91,34 @@ img {
 }
 
 .header-btn {
+    color: var(--main-btn-color);
+    margin-left: 40px;
+}
+
+.btn {
     font-family: inherit;
     font-weight: 600;
     line-height: 1.36;
     letter-spacing: 0.09em;
     text-transform: uppercase;    
-    color: #FFFFFF;
     font-size: 12px;
+    margin-left: 40px;
+    border: 1px solid #FF6C00;
+    border-radius: 25px;
+    background-color: transparent;
+    min-width: 160px;
+    height: 40px;
+    cursor: pointer;
 }
 
-.hero {
-    background-color: #7987b6;;
+.btn:hover {
+    background-color: var(--accent-color);
+    color: var(--main-btn-color);
+}
+
+
+.hero-container {
+    display: flex;
 }
 
 .hero-link {
@@ -89,6 +129,10 @@ img {
     color: #303030;
 }
 
+.hero-list {
+    width: 100px;
+}
+
 .hero-link:hover,
 .hero-link:focus {
     color: #FF6C00;
@@ -96,6 +140,8 @@ img {
 
 .hero-content {
     padding: 272px 100px 208px 100px;
+    background-color: #7987b6;
+    flex-grow: 1;
 }
 
 .hero-top-text {
@@ -143,6 +189,20 @@ img {
 .about {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.about-list {
+    display: flex;
+    gap: 30px;
+}
+
+.about-container {
+    display: flex;
+    gap: 30px;
+}
+
+.about-content {
+    max-width: 470px;
 }
 
 .about-top-text {
@@ -199,6 +259,11 @@ img {
     padding-bottom: 120px;
 }
 
+.prices-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
 .prices-top-text {
     font-weight: 600;
     line-height: 1.36;
@@ -221,6 +286,17 @@ img {
 .prices-list {
     border: 1px solid #fff;
     padding: 30px 20px;
+    width: calc((100% - 30px) / 2);
+}
+
+.prices-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.prices-item:last-child {
+    margin-bottom: 0;
 }
 
 .prices-item-text {
@@ -306,6 +382,21 @@ img {
     padding-bottom: 120px;
 }
 
+.barbers-list {
+    display: flex;
+    gap: 30px;
+}
+
+.barbers-soc-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.barbers-item {
+    width: calc((100% - 60px) / 3);
+}
+
 .barbers-top-text {
     font-weight: 600;
     font-size: 11px;
@@ -355,6 +446,20 @@ img {
     height: 44px;
     border-radius: 50%;
     background-color: tomato;
+}
+
+.gallery {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.gallery-list {
+    display: flex;
+    gap: 30px;
+}
+
+.gallery-item {
+    width: calc((100% - 90px) / 4);
 }
 
 .gallery-top-text {
