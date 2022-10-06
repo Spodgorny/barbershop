@@ -320,14 +320,15 @@ img {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    align-items: baseline;
+    gap: 12px;
 }
 
-.prices-item::before {
+.prices-item::after {
     content: '';
     flex-grow: 1;
     height: 1px;
-    background-color: #FFFFFF;
-
+    background-color: rgba(157, 164, 189, 0.12);;
 }
 
 .prices-item:last-child {
@@ -339,6 +340,10 @@ img {
     line-height: 1.67;
     letter-spacing: 0.02em;
     color: #9DA4BD;
+}
+
+.prices-item-text:last-child {
+    order: 1;
 }
 
 .prices-btn {
