@@ -360,15 +360,40 @@ img {
     margin-top: 44px;
 }
 
+.benefits-container {
+    display: flex;
+    padding-left: 100px;
+    gap: 130px;
+}
+
+.benefits-content {
+    max-width: 500px;
+    padding-top: 9px;
+}
+
 .benefits {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
+.benefits-list {
+    display: flex;
+    width: 370px;
+    flex-wrap: wrap;
+}
+
+.benefits-item:nth-child(odd) {
+    margin-right: 30px;
+}
+
+.benefits-item:nth-child(even) {
+    margin-top: 30px;
+}
+
 .benefits-item {
     width: 170px;
     height: 133px;
-    border: 1px solid #000;
+    background-color: #F7F7F7;
     padding: 20px 24px;
     text-align: center;
 }
@@ -407,6 +432,7 @@ img {
     letter-spacing: 0.05em;
     color: #303030;
     margin-bottom: 20px;
+    max-width: 430px;
 }
 
 .benefits-bottom-text {
@@ -522,23 +548,44 @@ img {
 }
 
 .online {
-    background-color: #303030;
+    width: calc(50% + 15px);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .online-title {
     color: var(--main-title-color);
 }
 
+.contact-wrap {
+    background-color: #191C26;
+    background-image: url(../img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: calc(50% - 15px) 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 .contacts {
-    background-color: #303030;
+    width: calc(50% - 15px);
+    padding-left: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contact-container {
+    display: flex;
 }
 
 .contacts-title {
     color: var(--main-title-color);
+    margin-bottom: 40px;
 }
 
 .contacts-address {
     font-style: normal;
+    margin-bottom: 70px;
 }
 
 .contacts-address-link {
@@ -547,6 +594,12 @@ img {
     letter-spacing: 0.02em;  
     color: #9DA4BD;
     font-size: 18px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.contacts-item {
+    margin-top: 20px;
 }
 
 .contacts-link {
@@ -560,6 +613,7 @@ img {
     text-transform: uppercase;
     color: #FFFFFF;
     line-height: var(--typical-lh);
+    margin-bottom: 20px;
 }
 .contacts-schedule {
     font-size: 18px;
