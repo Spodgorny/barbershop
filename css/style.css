@@ -32,6 +32,19 @@ ul, ol {
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 p,
 h1,
 h2,
@@ -791,3 +804,92 @@ img {
     font-size: 13px;
     color: rgba(117, 117, 117, 0.5);
 }
+
+.modal-field {
+    margin-bottom: 15px;
+}
+
+.form-checkbox-label {
+    font-size: 14px;
+    color: grey;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.form-checkbox-label::before {
+    content: '';
+    width: 40px;
+    height: 22px;
+    border: 1px solid #555555;
+    border-radius: 50px;
+    margin-right: 7px;
+    transition: background-color 250ms linear;
+}
+
+.form-checkbox-label::after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 18px;
+    height: 18px;
+    background-color: #555555;
+    border-radius: 50%;
+    margin-right: 7px;
+    transition: transform 250ms linear, background-color 250ms linear;
+}
+
+.input-check:checked + .form-checkbox-label::after {
+    transform: translate(18px);
+    background-color: #ffffff;
+}
+
+.input-check:checked + .form-checkbox-label::before {
+    background-color: rgb(50, 219, 50);
+}
+
+/* .form-checkbox-label span {
+    width: 16px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.input-check:checked + .form-checkbox-label span {
+    background-color: orange;
+    border-color: transparent;
+    fill: #ffffff;
+}
+
+.input-check:focus + .form-checkbox-label span {
+    border-color: #FF6C00;
+}
+
+.input-check:hover + .form-checkbox-label span {
+    border-color: #FF6C00;
+} */
+
+/* ВТОРОЙ ВАРИАНТ ДОБАВЛЕНИЯ КАРТИНКИ ЧЕКБОКС */
+
+/* .form-checkbox-label::before {
+    content: '';
+    width: 16px;
+    height: 15px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.input-check:checked + .form-checkbox-label::before {
+    background-color: orange;
+    background-image: url(../img/icon-check.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    border-color: transparent;
+} */
