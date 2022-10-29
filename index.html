@@ -337,6 +337,26 @@
                     <use href="./img/sprite.svg#icon-close"></use>
                 </svg>
             </button>
+            <p class="modal-title">Заголовок модального вікна</p>
+            <form>
+                <label>
+                    <span class="modal-label-text">Введіть ім'я</span>
+                    <input type="text" class="modal-input" name="name" placeholder="Микола" required>
+                </label>
+                <label for="email" class="modal-label">
+                    <span class="modal-label-text">Введіть пошту</span>
+                    <input type="email" class="modal-input" name="email" placeholder="Введіть пошту" id="email">
+                </label>
+                <label>
+                    <span class="modal-label-text">Введіть телефон</span>
+                    <input type="tel" class="modal-input" name="tel" placeholder="Введіть телефон" required>
+                </label>
+                <label>
+                    <span class="modal-label-text">Введіть коментар</span>
+                    <textarea name="text" id="text" class="modal-comment" placeholder="Введіть текст"></textarea>
+                </label>
+                <button type="submit">Send</button>
+            </form>
         </div>
     </div>
 
